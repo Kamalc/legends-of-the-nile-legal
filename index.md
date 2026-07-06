@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Mahjong&#58; Legends of the Nile — Legal
 ---
 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="theme-color" content="#1B3A5C" />
+  <link rel="icon" href="{{ '/assets/icon.png' | relative_url }}" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER (matches the main site) ================= -->
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="https://kamalc.github.io/">
+        <img src="{{ '/assets/icon.png' | relative_url }}" alt="" />
+        <span>Legends of the Nile</span>
+      </a>
+      <nav>
+        <a href="https://kamalc.github.io/">Home</a>
+        <a href="{{ '/privacy' | relative_url }}">Privacy</a>
+        <a href="{{ '/terms' | relative_url }}">Terms</a>
+        <a href="mailto:blurred.project.studio@gmail.com">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= PAGE CONTENT ================= -->
+  <article class="prose wrap">
+    {{ content }}
+  </article>
+
+  <!-- ================= FOOTER (matches the main site) ================= -->
+  <footer class="site-footer">
+    <nav>
+      <a href="https://kamalc.github.io/">Home</a>
+      <a href="{{ '/privacy' | relative_url }}">Privacy Policy</a>
+      <a href="{{ '/terms' | relative_url }}">Terms of Service</a>
+    </nav>
+    <p><span class="studio">Blurred Project</span> &middot; Based in Egypt</p>
+    <p class="muted">&copy; 2026 Blurred Project. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms of Service
+---
+
 # Terms of Service
 
 **Game:** Mahjong: Legends of the Nile
