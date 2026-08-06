@@ -9,7 +9,7 @@ title: Privacy Policy
 **Developer:** Blurred Project
 **Contact:** blurred.project.studio@gmail.com
 **Effective date:** 17 May 2026
-**Last updated:** 17 May 2026
+**Last updated:** 6 August 2026
 
 This Privacy Policy explains what data Mahjong: Legends of the Nile ("the Game", "we", "us") collects, how it is used, and the choices you have. By installing or playing the Game you agree to this Policy.
 
@@ -31,6 +31,7 @@ This Privacy Policy explains what data Mahjong: Legends of the Nile ("the Game",
 
 - **Display name** you type in (if you change the default guest name) — stored on PlayFab and shown on the global leaderboard.
 - **Google account email + display name** — only if you choose to **Sign in with Google** to back up your progress. This lets us link your save to your Google account so you can restore it on another device. We do not receive your password.
+- **Apple account identifier, display name and email** — only if you choose to **Sign in with Apple** on iOS. If you select Apple's **Hide My Email** option we receive only a private relay address, never your real one. We do not receive your password.
 
 ### 2.2 Data collected automatically
 
@@ -57,7 +58,8 @@ This Privacy Policy explains what data Mahjong: Legends of the Nile ("the Game",
 | **Firebase Crashlytics** (Google LLC) | Crash and ANR reporting | Stack traces, device state, build identifier | https://firebase.google.com/support/privacy |
 | **Firebase Remote Config** (Google LLC) | Server-tunable game parameters (ad cadence, difficulty curves) | App instance ID, device info | https://firebase.google.com/support/privacy |
 | **PlayFab** (Microsoft) | Cloud save backup, leaderboards, account linking | PlayFab player ID, display name, in-game scores, save data blob | https://privacy.microsoft.com/privacystatement |
-| **Google Play Games Services** | Optional sign-in for cloud save and leaderboards on Android | Google account ID, display name, email (only if you sign in) | https://policies.google.com/privacy |
+| **Sign in with Google** (Google Identity Services) | Optional sign-in for cloud save and leaderboards on Android | Google account ID, display name, email (only if you sign in) | https://policies.google.com/privacy |
+| **Sign in with Apple** (Apple Inc.) | Optional sign-in for cloud save and leaderboards on iOS | Apple user identifier, display name, email or Apple "Hide My Email" relay address (only if you sign in) | https://www.apple.com/legal/privacy |
 
 We do not share data with any party outside this list.
 
@@ -71,6 +73,7 @@ Ads in the Game are served by Google AdMob. AdMob may use your advertising ident
 
 - **EU, UK, Switzerland (GDPR):** on first launch you will see a Google-provided consent form. You can choose between personalised ads, non-personalised ads, or paying for an ad-free experience if offered. (We currently do not offer a paid ad-free option, so the choice is between personalised and non-personalised.) You can change your choice any time from the in-game **Settings → Privacy Options** link.
 - **California (CCPA):** "Do Not Sell or Share My Personal Information" is honoured. Use the same Settings → Privacy Options link to opt out.
+- **iOS — App Tracking Transparency (ATT):** on iOS 14.5 and later, the Game asks for your permission before it uses the IDFA to track you across other companies' apps and websites. This is the system prompt titled *"Allow 'Mahjong: Legends of the Nile' to track your activity across other companies' apps and websites?"*. If you choose **Ask App Not to Track**, the IDFA is not accessed and you will still see ads, but they will be non-personalised. You can change this at any time in **Settings → Privacy & Security → Tracking**.
 - **All regions:** disable ad personalisation at the OS level — Android: Settings → Google → Ads → "Delete advertising ID". iOS: Settings → Privacy & Security → Tracking → toggle off "Allow Apps to Request to Track".
 
 We never show personalised ads to users under 13. If our age signal indicates the user is under 13 (declared age in app, or country with default restrictions), only non-personalised ads are served.
